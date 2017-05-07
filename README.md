@@ -1,15 +1,22 @@
 # ZoomNPan
 Use mouse wheel to zoom an image and move the mouse to pan around. Just using vanilla javascript in 50 lines.
 
-Check out this example
+Live example:
 http://jsfiddle.net/Victornpb/1s3nm8h8/
 
 Usage
 ----
-```
-var divZoom = document.getElementById('myDiv');
 
-p = new ZoomNPan(divZoom); //Ready!
+Works on any div that have a background image
+
+HTML
+```
+<div id="myDiv" style="background: url('cat.jpg')"></div>
+```
+
+Javascript
+```
+var p = new ZoomNPan(myDiv); //That's it!
 ```
 
 Options
