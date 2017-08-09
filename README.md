@@ -16,11 +16,11 @@ HTML
 
 Javascript
 ```
-var p = new ZoomNPan(myDiv); //That's it!
+var zp = new ZoomNPan(myDiv); //That's it!
 ```
+# API
 
-Options
-----
+## Properties
 
 - minimum zoom allowed (in percent)  
     `ZoomNPan.minScale = 30;`
@@ -28,15 +28,20 @@ Options
  - maximun zoom allowed (in percent)  
    `ZoomNPan.maxScale = 300;`
     
- - Snap to 100% if the zoom is in +- this amount (in percent) 
+ - Snap to 100% if the zoom is in +- this amount (in percent)  
     `ZoomNPan.snap = 9;`
     
  - invert the direction on MacOS  
     `ZoomNPan.invertOnMac = false;`
     
     
-Methods
-----
+## Methods
     
  - theardown the events and remove styles, call this when you don't need it anymore.   
     `ZoomNPan.destroy()`
+    
+-----
+
+## Suggestions / Questions
+
+File a [issue](https://github.com/victornpb/ZoomNPan/issues) on this repository.
